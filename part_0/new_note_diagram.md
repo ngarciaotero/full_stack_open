@@ -7,4 +7,12 @@ sequenceDiagram
     activate server
     server-->>browser: URL redirect /exampleapp/notes
     deactivate server
+
+    browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/notes
+    activate server
+    server-->>browser: HTML file
+    deactivate server
+
+
+
 ```
