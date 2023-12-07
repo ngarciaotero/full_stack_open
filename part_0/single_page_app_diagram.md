@@ -22,4 +22,5 @@ sequenceDiagram
     activate server
     server-->>browser: raw data
     deactivate server
+    Note right of browser: The browser executes the callback function that updates the notes
 ```
