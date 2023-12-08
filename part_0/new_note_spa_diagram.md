@@ -3,8 +3,7 @@ sequenceDiagram
     participant browser
     participant server
 
-    activate browser
-    browser->>browser: Get form element
+    browser->>browser: Form handler triggered
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
     activate server
